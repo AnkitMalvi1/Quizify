@@ -77,7 +77,7 @@ const Home = () => {
           }, millisecondsUntilNextDay);
       };
       buttonDisabled();
-      // resultFunc();
+      resultFunc();
   };
 
   
@@ -149,12 +149,12 @@ const Home = () => {
 
     // const [showresult,setShowresult] = useState([]);
 
-    const url = 'https://quiz26.p.rapidapi.com/questions';
+    const url = process.env.URL;
     const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '18928fddc7msh24b984ecd0e6ef1p1ac2b9jsnd5361f0e1cdb',
-		'X-RapidAPI-Host': 'quiz26.p.rapidapi.com'
+		'X-RapidAPI-Key': process.env.API_KEY,
+		'X-RapidAPI-Host': process.env.HOST
 	    }
     };
 
