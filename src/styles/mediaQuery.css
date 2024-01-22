@@ -1,0 +1,234 @@
+@media screen and (min-width:1023px) and (min-height:1300px){
+    .loginSection{
+        flex-direction: column;
+    }
+    .loginSection > .loginImg{
+        height: 45vh;
+    }
+    .loginDiv > .loginh1{
+        font-size: 4rem;
+    }
+    .loginDiv > .loginh1{
+        font-size: 4rem;
+    }
+    .loginformDiv > label{
+        font-size: 1.7rem;
+    }
+    .loginformDiv > #username{
+        font-size: 1.7rem;
+    }
+    .loginformDiv > label{
+        font-size: 1.7rem;
+    }
+    .loginformDiv > #password{
+        font-size: 1.7rem;
+    }
+    .loginformDiv > Button{
+        font-size: 1.7rem;
+    }
+    .loginformDiv > .notUser{
+        font-size: 1.7rem;
+    }
+    .loginformDiv > .notUser > a{
+        font-size: 1.7rem;
+    }
+    .signupSection{
+        flex-direction: column;
+    }
+    .signupSection > .signupImg{
+        height: 45vh;
+    }
+    .signupDiv > .signuph1{
+        font-size: 4rem;
+    }
+    .signupDiv > .signuph1{
+        font-size: 4rem;
+    }
+    .signupformDiv > label{
+        font-size: 1.7rem;
+    }
+    .signupformDiv > #username{
+        font-size: 1.7rem;
+    }
+    .signupformDiv > label{
+        font-size: 1.7rem;
+    }
+    .signupformDiv > #password{
+        font-size: 1.7rem;
+    }
+    .signupformDiv > Button{
+        font-size: 1.7rem;
+    }
+    .signupformDiv > .notUser{
+        font-size: 1.7rem;
+    }
+    .signupformDiv > .notUser > a{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:1025px) and (max-height:2000px) {
+    .getStart{
+        height: 86vh;
+    }
+    .getStart > .startImg{
+        width: 71vw;
+    }
+    .loginSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .signupSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1025px) and (max-height:2000px){
+    .loginSection{
+        padding: 10rem;
+    }
+    .loginSection > .loginImg{
+        height: 40vw;
+    }
+    .signupSection{
+        padding: 10rem;
+    }
+    .signupSection > .signupImg{
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .getStart > .startImg{
+        height: 45vw;
+    }
+    .getStart > .startSec{
+        padding: 0.7rem;
+    }
+    .startSec > .startLine{
+        font-size: 0.9rem;
+    }
+    .startSec > .startBtn{
+        font-size: 0.9rem;
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width:641px) {
+    .getStart > .startSec{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .getStart{
+        height: 82svh;
+    }
+    .startSec > .startLine{
+        text-align: center;
+    }
+    .header{
+        padding: 1rem 0;
+    }
+    .header > .logo{
+        font-size: 1.8rem;
+    }
+    /* .links > .links{
+       
+    } */
+    .links > .link{
+        font-weight: 200;
+    }
+    .links > .link:nth-child(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        color: blue;
+        background: rgb(156, 156, 255);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-weight: 600;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+    }
+    .links > .link:nth-child(1):hover{
+        padding: 0;
+        transform: scale(1.2);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .links > .link:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        color: blue;
+        background: rgb(156, 156, 255);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-weight: 600;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+    }
+    .links > .link:nth-child(2):hover{
+        padding: 0;
+        transform: scale(1.2);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .links > .link:nth-child(3){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        color: blue;
+        background: rgb(156, 156, 255);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-weight: 600;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+    }
+    .links > .link:nth-child(3):hover{
+        padding: 0;
+        transform: scale(1.2);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    
+    .loginSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        position: fixed;
+        left: 1.5rem;
+        right: 1.5rem;
+        bottom: 0.3rem;
+        height: 82svh;
+    }
+    .login > .loginImg{
+        display: none;
+    }
+    .signupSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        position: fixed;
+        left: 1.5rem;
+        right: 1.5rem;
+        bottom: 0.3rem;
+        height: 82svh;
+    }
+    .signup > .signupImg{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1300px) and (max-height:2000px){
+    .login > .loginDiv{
+        height: 60vh;
+    }
+    .signup > .signupDiv{
+        height: 60vh;
+    }
+}
+
+

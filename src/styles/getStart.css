@@ -1,0 +1,38 @@
+.getStart{
+    height: 84vh;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0.1rem 6rem 1rem 6rem #f1f2f6;  
+    background: #ffffff;
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.getStart > .startImg{
+    height: 45vh;
+    /* filter: drop-shadow(0.2rem 0.2rem 0.2rem); */
+}
+.getStart > .startSec{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startSec > .startLine{
+    font-size: 1.2rem;
+}
+.startSec > .startBtn{
+    font-size: 1rem;
+    background-color: rgb(65, 65, 255);
+    color: aliceblue;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease;
+}
+.startSec > .startBtn:hover{
+    background-color: rgb(56, 56, 255); 
+}

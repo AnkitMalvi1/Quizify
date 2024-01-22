@@ -1,0 +1,8 @@
+.loader{
+    height: 84vh;
+    border-radius: 0 0 2rem 2rem;
+    background: #ffffff;
+    box-shadow: 0.1rem 6rem 1rem 6rem #f1f2f6;  
+    display: grid;         
+    place-items: center;
+}

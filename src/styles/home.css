@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0.5rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rethink Sans', sans-serif;
+}
+body{
+    background: #f1f2f6;
+}
+@import "header.css";
+@import "getStart.css";
+@import "login.css";
+@import "signup.css";
+@import "mediaQuery.css";
+@import "loader.css";
+
+
+.home{
+    height: auto;
+    border-radius: 0 0 2rem 2rem;
+    background: #ffffff;
+    box-shadow: 0.1rem 6rem 1rem 6rem #f1f2f6;  
+    padding: 3rem;
+    color: #000000;
+}
+
+.home .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home > .scoreattempts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.home > .main{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+}
+.main > .question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 70vw;
+    padding: 2rem;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8ec5fc9c 0%, #e0c3fca6 100%);
+}
+
+.main > .catmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catmain > .categorytag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.question .options button{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    list-style: none;
+    padding: 0;
+    background: #fff;
+    width: 96%;
+    color: #000000;
+    border: none;
+    display: flex;
+    text-align: start;
+}
+.question .options button:active{
+    border: none;
+    border: 0px;
+    background-color: #0ea5e9;
+    color: #fff;
+}
+.slide-in-div {
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Apply the animation when the button is clicked */
+  .slide-in-div.animate {
+    animation: slideIn 1s forwards;
+  }
+.next{
+    /* color: #fff; */
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: #004cff;
+}
+.main > .rightArrowDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.rightArrowDiv > .rightArrow{
+    font-size: 2.1rem;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.414));
+}
+.rightArrowDiv > .rightArrow:active{
+    filter: none;
+}
+
+
+
+
+@media screen and (max-width:770px) {
+    .main > .question{
+        padding: 0;
+    }
+}
+@media screen and (max-width:605px) {
+    .home > .main{
+        flex-direction: column;
+    }
+    .main > .catmain{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:545px) {
+    .home{
+        padding: 1.9rem;
+    }
+    .options > button{
+        font-size:small;
+    }
+}
+@media screen and (max-width:465px) {
+    .home{
+        padding: 1rem;
+    }
+}
